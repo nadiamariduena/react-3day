@@ -5,9 +5,11 @@
   "description": "react 3 day",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -d build"
+    "build": "react-scripts build"
+   
   },
   "author": "melissa murillo",
   "license": "ISC",
